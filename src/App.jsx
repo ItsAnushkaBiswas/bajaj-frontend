@@ -62,10 +62,10 @@ function App() {
       {responseData && (
         <div className="response-container">
           <h3>Response Data:</h3>
-          <p><strong>Status:</strong> {responseData.status}</p>
-          <p><strong>User ID:</strong> {responseData.userId}</p>
-          <p><strong>College Email ID:</strong> {responseData.collegeEmail}</p>
-          <p><strong>College Roll Number:</strong> {responseData.collegeRollNumber}</p>
+          <p><strong>Status:</strong> {responseData.is_success}</p>
+          <p><strong>User ID:</strong> {responseData.user_id}</p>
+          <p><strong>College Email ID:</strong> {responseData.email}</p>
+          <p><strong>College Roll Number:</strong> {responseData.roll_number}</p>
           <p><strong>Numbers:</strong> {responseData.numbers.join(', ')}</p>
           <p><strong>Alphabets:</strong> {responseData.alphabets.join(', ')}</p>
           <p><strong>Highest Lowercase Alphabet:</strong> {responseData.highestLowercase}</p>
