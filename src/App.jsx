@@ -62,7 +62,7 @@ function App() {
       {responseData && (
         <div className="response-container">
           <h3>Response Data:</h3>
-          <p><strong>Status:</strong> {responseData.is_success}</p>
+          {/* <p><strong>Status:</strong> {responseData.is_success}</p> */}
           <p><strong>User ID:</strong> {responseData.user_id}</p>
           <p><strong>Email ID:</strong> {responseData.email}</p>
           <p><strong>College Roll Number:</strong> {responseData.roll_number}</p>
