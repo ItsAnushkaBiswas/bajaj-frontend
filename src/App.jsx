@@ -64,11 +64,11 @@ function App() {
           <h3>Response Data:</h3>
           <p><strong>Status:</strong> {responseData.is_success}</p>
           <p><strong>User ID:</strong> {responseData.user_id}</p>
-          <p><strong>College Email ID:</strong> {responseData.email}</p>
+          <p><strong>Email ID:</strong> {responseData.email}</p>
           <p><strong>College Roll Number:</strong> {responseData.roll_number}</p>
           <p><strong>Numbers:</strong> {responseData.numbers.join(', ')}</p>
           <p><strong>Alphabets:</strong> {responseData.alphabets.join(', ')}</p>
-          <p><strong>Highest Lowercase Alphabet:</strong> {responseData.highestLowercase}</p>
+          <p><strong>Highest Lowercase Alphabet:</strong> {responseData.highest_lowercase_alphabet}</p>
         </div>
       )}
     </>
