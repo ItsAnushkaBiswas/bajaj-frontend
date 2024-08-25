@@ -17,7 +17,7 @@ function App() {
         throw new Error('Input must contain a "data" array.');
       }
 
-      fetch("http://localhost:3000/bfhl", {
+      fetch("https://bajaj-backend-idjm.onrender.com/bfhl", {
         method: "POST",
         headers: {
           'Content-Type': 'application/json'
